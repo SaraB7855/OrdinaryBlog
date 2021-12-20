@@ -1,0 +1,134 @@
+.main-container {
+    padding-bottom: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* TITLE SECTION */
+
+.ordinary-girls {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(224, 192, 169);
+    margin: 0;
+}
+
+.name-section {
+    font-family: 'Antic Didone', serif;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 15px;
+    font-size: 35px;
+    color: #5a5959;
+    font-weight: lighter;
+}
+
+
+/* Email form */
+
+.container {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    position: relative;
+    background-color: white;
+
+}
+
+.wrap-container {
+    width: 500px;
+    padding: 50px 0 160px;
+}
+
+.validate-form {
+    width: 100%;
+}
+
+/* form {
+    display: block;
+} */
+
+.form-title {
+    display: block;
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 90px 0 2px 0;
+}
+
+.validate-input {
+    position: relative;
+}
+
+.wrap-input {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 30%;
+    margin-bottom: 16px;
+    /* z-index: 1; */
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+input .input1 {
+    height: 62px;
+    padding: 0 35px;
+}
+
+.input1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 70px;
+    padding-left: 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: #f1eaea;
+}
+
+.message-input {
+    height: 20rem;
+    overflow: auto;
+    resize: vertical;
+    padding: 21px;
+}
+
+/* BUTTON */
+.btn-wrap {
+    margin-top: 50px;
+    ;
+}
+
+.btn {
+    position: relative;
+    margin-top: 40px;
+    left: 200px;
+    background-color: rgb(224, 192, 169);
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #f89b9b;
+}

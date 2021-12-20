@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+#main-wrap {
+    background-color: rgb(250, 247, 244);
+    border: 1px solid rgb(83, 83, 83);
+    /* height: 145rem; */
+    width: 100%;
+}
+
+.main-content {
+    height: 700px;
+    width: 60%;
+    margin: 50px 400px;
+}
+
+.main-content p {
+    text-align: start;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 2rem;
+    padding-top: 40px;
+    color: rgb(88, 87, 87);
+    user-select: none;
+}
+
+.main-content img {
+    padding: 50px 150px;
+    padding-bottom: 20px;
+    width: 65%;
+}
+
+
+.first-letter {
+    font-size: 50px;
+    color: rgb(224, 165, 143);
+}
+
+strong {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+
+.img2 {
+    height: 70%;
+}
+
+/*anx*/
+.sections-header {
+    color: rgb(224, 165, 143);
+    margin-top: 40px;
+}
+
+hr {
+    margin-top: 20px;
+    color: rgb(160, 160, 160);
+}
+
+.triger-list {
+    font-size: 19px;
+    color: rgb(88, 87, 87);
+    font-weight: bold;
+}
+
+.triger-list li {
+    margin: 16px;
+}
+
+.colored-text {
+    color: rgb(28, 170, 35);
+}
+
+pre {
+    padding: 30px 20px 20px 25px;
+    color: rgb(80, 79, 79);
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

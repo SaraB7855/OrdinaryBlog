@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.main-container {
+    padding-bottom: 200px;
+}
+
+/* TITLE SECTION */
+
+.ordinary-girls {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(224, 192, 169);
+    margin: 0;
+}
+
+.name-section {
+    font-family: 'Antic Didone', serif;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 15px;
+    font-size: 35px;
+    color: #5a5959;
+}
+
+body {
+    color: #272727;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.main {
+    /* max-width: 1200px; */
+    margin: 100px 200px 10px 350px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.btn {
+    color: #747474;
+    padding: 0.8rem;
+    font-size: 17px;
+    font-family: sans-serif;
+    border-radius: 4px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: transparent;
+    transition-duration: 0.4s;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
+
+.btn:hover {
+    background-color: rgba(66, 66, 66, 0.12);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+    width: 30%;
+
+}
+
+/* @media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.3333%;
+    }
+} */
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_content {
+    padding: 1rem;
+}
+
+.card_title {
+    color: #222222;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.card_text {
+    color: rgb(98, 98, 98);
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+}
